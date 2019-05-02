@@ -135,7 +135,7 @@ export class UseAsyncCache { // tslint:disable-line
         return cache.call(fn, ...args);
     }
 
-    public getResponse = () => {
+    get response() {
         return cache.state.responses[this.state.id];
     }
 }

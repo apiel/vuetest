@@ -31,7 +31,7 @@ export default class HelloWorld extends Vue {
   }
 
   get res() {
-    return this.useAsyncCache.getResponse();
+    return this.useAsyncCache.response;
   }
 
   data() {
